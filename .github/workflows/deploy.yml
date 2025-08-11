@@ -25,5 +25,11 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      - name: Build
-        run: npm run build
+      - name: Execute remote SSH commands using SSH key
+        uses: appleboy/ssh-action@v1
+        with:
+            host: 192.168.139.128
+            username: anuj
+            key: ${{ secrets.SSH_SECRET_KEY }}
+            port: 22
+            script: ./deploy.sh
