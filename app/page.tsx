@@ -43,7 +43,7 @@ export default function Home() {
               </p>
               <div className="flex items-center justify-center gap-2 text-slate-400">
                 <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
-                <span className="text-sm font-medium">Every push triggers automated deployment</span>
+                <span className="text-sm font-medium">Every push triggers automated integration checks.</span>
               </div>
             </div>
 
