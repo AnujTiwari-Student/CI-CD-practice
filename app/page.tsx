@@ -3,7 +3,6 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 relative overflow-hidden">
-      {/* Animated background elements */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute -top-40 -right-40 w-80 h-80 bg-purple-500/10 rounded-full blur-3xl animate-pulse"></div>
         <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-blue-500/10 rounded-full blur-3xl animate-pulse delay-1000"></div>
@@ -11,10 +10,8 @@ export default function Home() {
       </div>
 
       <div className="relative z-10 min-h-screen flex flex-col items-center justify-center p-6">
-        {/* Main content card */}
         <main className="w-full max-w-2xl">
           <div className="backdrop-blur-xl bg-slate-800/30 border border-slate-700/50 rounded-3xl shadow-2xl p-10 transition-all duration-300 hover:shadow-purple-500/10 hover:shadow-3xl">
-            {/* Logo section */}
             <div className="flex justify-center mb-8">
               <div className="p-4 bg-gradient-to-r from-blue-500/20 to-purple-500/20 rounded-2xl backdrop-blur-sm border border-slate-600/30">
                 <Image
@@ -28,13 +25,11 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Title with enhanced gradient */}
             <h1 className="text-5xl md:text-6xl font-black text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 mb-6 text-center leading-tight tracking-tight">
               Practicing CI/CD
               <span className="inline-block ml-3 text-4xl animate-bounce">🚀</span>
             </h1>
 
-            {/* Enhanced description */}
             <div className="mb-10 text-center">
               <p className="text-xl text-slate-300 leading-relaxed mb-4">
                 This homepage showcases my journey into{" "}
@@ -52,7 +47,6 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Enhanced buttons */}
             <div className="flex flex-col sm:flex-row gap-4 mb-8">
               <a
                 className="group flex items-center justify-center gap-3 px-8 py-4 rounded-2xl bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold shadow-2xl hover:from-blue-500 hover:to-purple-500 transition-all duration-300 transform hover:scale-105 hover:shadow-blue-500/25"
@@ -89,7 +83,6 @@ export default function Home() {
               </a>
             </div>
 
-            {/* Features grid */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
               <div className="p-4 rounded-xl bg-slate-700/30 border border-slate-600/30 backdrop-blur-sm text-center">
                 <div className="text-2xl mb-2">⚡</div>
@@ -110,7 +103,6 @@ export default function Home() {
           </div>
         </main>
 
-        {/* Enhanced footer */}
         <footer className="mt-12 text-center max-w-2xl">
           <div className="p-6 rounded-2xl bg-slate-800/20 backdrop-blur-sm border border-slate-700/30">
             <p className="text-slate-400 mb-2">
