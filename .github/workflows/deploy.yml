@@ -22,9 +22,6 @@ jobs:
         with:
           node-version: "22.18.0"
 
-      - name: Install dependencies
-        run: pnpm install
-
       - name: Execute remote SSH commands using SSH key
         uses: appleboy/ssh-action@v1
         with:
