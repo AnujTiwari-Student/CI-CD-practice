@@ -30,4 +30,4 @@ jobs:
               npm i -g pnpm
               pnpm install
               pnpm build
-              npm run start
+              nohup npm run start &
