@@ -31,5 +31,6 @@ jobs:
             host: 192.168.139.128
             username: anuj
             key: ${{ secrets.SSH_SECRET_KEY }}
+            passphrase: ${{ secrets.PASSKEY }}
             port: 22
             script: ./deploy.sh
