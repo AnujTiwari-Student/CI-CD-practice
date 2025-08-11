@@ -23,6 +23,11 @@ jobs:
             host: 192.168.139.128
             username: anuj
             key: ${{ secrets.SSH_SECRET_KEY }}
-            passphrase: ${{ secrets.PASSKEY }}
             port: 22
-            script: ./deploy.sh
+            script: | 
+              cd CI-CD-practice
+              git pull origin main
+              npm i -g pnpm
+              pnpm install
+              pnpm build
+              npm run start
