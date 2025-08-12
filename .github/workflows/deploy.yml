@@ -30,4 +30,4 @@ jobs:
               npm i -g pnpm
               pnpm install
               pnpm build
-              nohup npm run start &
+              pm2 start "pnpm run start" --name "test_app"

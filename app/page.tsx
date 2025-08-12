@@ -43,14 +43,14 @@ export default function Home() {
               </p>
               <div className="flex items-center justify-center gap-2 text-slate-400">
                 <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
-                <span className="text-sm font-medium">Every push triggers automated integration checks.</span>
+                <span className="text-sm font-medium">Every push triggers automated integration checks to manage the build process.</span>
               </div>
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-8">
               <a
                 className="group flex items-center justify-center gap-3 px-8 py-4 rounded-2xl bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold shadow-2xl hover:from-blue-500 hover:to-purple-500 transition-all duration-300 transform hover:scale-105 hover:shadow-blue-500/25"
-                href="https://github.com/"
+                href="https://github.com/AnujTiwari-Student/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
